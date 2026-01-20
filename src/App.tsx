@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import Lenis from 'lenis';
 import 'lenis/dist/lenis.css';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 import CustomCursor from './components/CustomCursor';
 import Navigation from './components/Navigation';
@@ -49,6 +50,7 @@ function App() {
       </main>
 
       <Footer />
+      <SpeedInsights />
     </div>
   )
 }
